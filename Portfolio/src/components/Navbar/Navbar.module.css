@@ -1,0 +1,13 @@
+/* .li{
+    color:white;
+    height: 30px;
+}
+.li:hover{
+    background-color: rgb(236, 179, 179);
+    border-radius: 10px;
+    
+} */
+#navClass{
+    background-color: rgba(116, 109, 109, 0.425) !important;
+    text-shadow: black 100px;
+}
