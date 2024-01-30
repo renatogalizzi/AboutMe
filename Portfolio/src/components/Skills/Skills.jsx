@@ -3,11 +3,11 @@ import styles from "./Skills.module.css"
 
 const Skills = () => {
   return (
-    <div className="d-flex bg-body-tertiary rounded-5 align-content-center h-100 justify-content-center">
-      <section className="d-flex  flex-column align-content-center" id="habilidades">
+    <div className="d-flex w-100 justify-content-center mt-5 min-vh-100">
+      <section className="d-flex bg-body-tertiary flex-column align-content-center h-100">
         <h2 className="text-secondary text-center pt-4 pb-3 font-monospace">My Skills</h2>
         <div className="">
-          <div className="">
+          <div className="d-flex flex-sm-column flex-md-row">
             <img src="../../../src/assets/react.svg" 
             alt="" 
             className="p-3 shadow rounded-4 m-2 border-bottom border-3" 
@@ -32,7 +32,7 @@ const Skills = () => {
             />
           </div>
 
-          <div class="second-set animate__animated animate__pulse">
+          <div class="d-flex flex-sm-column flex-md-row">
             <img
               src="../../../src/assets/sequelize.svg"
               alt=""

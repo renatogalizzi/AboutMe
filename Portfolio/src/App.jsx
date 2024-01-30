@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   
   return (
-    <div className='w-100 d-flex flex-column vh-100 bg-body-tertiary'>
+    <div className='w-100  bg-body-tertiary min-vh-100'>
       <div className="mb-3">
       <Navbar /> 
       <Routes className="w-100">

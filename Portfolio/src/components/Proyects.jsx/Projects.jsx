@@ -3,8 +3,8 @@ import styles from "./Projects.module.css"
 
 const Projects = () => {
   return (
-    <div className="d-flex justify-content-center h-75 gap-2 flex-wrap">
-      <div id={styles.cardProject} className="d-flex justify-content-center align-content-stretch my-auto flex-wrap gap-4 mt-5">
+    <div className="d-flex justify-content-center h-75 gap-2 flex-wrap min-vh-100">
+      <div id={styles.cardProject} className="d-flex justify-content-center my-auto flex-wrap gap-4 mt-5">
         <div className="card mx-3 bg-body-tertiary" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img

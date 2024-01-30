@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-100">
-      <div id={styles.navClass} className="d-flex justify-content-center p-2 shadow-lg border me-3">
+    <div className="w-100 sticky-top">
+      <div id={styles.navClass} className="d-flex justify-content-center p-2 shadow border me-3">
         <div className="me-auto text-dark fs-3 my-auto ms-3 font-monospace">Renato Galizzi</div>
         <div className="d-flex justify-content-center mt-3">
             <ul className="d-flex gap-3 list-unstyled me-3">
