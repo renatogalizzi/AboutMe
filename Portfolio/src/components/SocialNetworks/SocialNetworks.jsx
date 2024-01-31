@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialNetworks = () => {
   return (
-    <div className="position-fixed end-0 bottom-50 d-flex flex-column">
+    <div className="position-fixed end-0 bottom-0 mb-5 d-flex flex-column">
       <a href="https://github.com/renatogalizzi" target="_blank">
         <img
           src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706742429/github.png"
