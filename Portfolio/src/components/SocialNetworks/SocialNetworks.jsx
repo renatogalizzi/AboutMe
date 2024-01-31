@@ -20,7 +20,7 @@ const SocialNetworks = () => {
           width="40px"
         />
       </a>        
-      <a href="#" target="_blank">
+      <a href="https://wa.me/+543413457800" target="_blank">
         <img
           src="../../../src/assets/whatsapp.png"
           alt="Whatsapp"
