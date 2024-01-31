@@ -1,11 +1,14 @@
 import React from "react";
+import whatsapp from "../../images/whatsapp.png"
+import github from "../../images/github.png"
+import linkedin from "../../images/linkedin.png"
 
 const SocialNetworks = () => {
   return (
     <div className="position-fixed end-0 bottom-50 d-flex flex-column">
       <a href="https://github.com/renatogalizzi" target="_blank">
         <img
-          src="../src/images/github.png"
+          src={github}
           alt="GitHub"
           className="mb-3"
           width="40px"
@@ -13,7 +16,7 @@ const SocialNetworks = () => {
       </a>
       <a href="https://www.linkedin.com/in/renato-galizzi-07b92b33/" target="_blank">
         <img
-          src="../src/images/linkedin.png"
+          src={linkedin}
           alt="Linkedin"
           loading="lazy"
           className="mb-3"
@@ -22,7 +25,7 @@ const SocialNetworks = () => {
       </a>        
       <a href="https://wa.me/+543413457800" target="_blank">
         <img
-          src="../src/images/whatsapp.png"
+          src={whatsapp}
           alt="Whatsapp"
           loading="lazy"
           className="me-2 mb-2"
