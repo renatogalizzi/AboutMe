@@ -56,7 +56,7 @@ const Projects = () => {
         <div className="card mx-3" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
-            src="../../../src/assets/sport.png"
+            src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706750052/amoysk4mlueufiabisc2.png"
             className="card-img-top"
             alt="..."
           />
