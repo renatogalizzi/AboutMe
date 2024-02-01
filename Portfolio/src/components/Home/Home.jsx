@@ -30,7 +30,7 @@ const Home = () => {
             <div className="accordion-body d-flex align-items-center">
               <button
                 type="button"
-                class="btn btn-primary"
+                class="btn btn-primary bg-transparent border-0"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >

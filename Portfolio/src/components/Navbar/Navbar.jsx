@@ -15,7 +15,7 @@ const Navbar = () => {
     }else {
       setIndex( prev => prev - 1);
     }
-  },500)
+  },300)
   
   return (
     <div className="w-100 sticky-top">
