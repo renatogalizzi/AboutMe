@@ -24,7 +24,7 @@ const Home = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body d-flex align-items-center">
-                <img src="../../../src/assets/perfil.png" width="100px" className="rounded-pill"></img>
+                <img src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749372/hycgxqivkep8ye21vghr.png" width="100px" className="rounded-pill"></img>
                 <p className="ms-3 font-monospace">
                 I am Renato Galizzi, I am 35 years old.
                 I recently graduated as a <code className="text-success fw-bold">Full Stack Developer</code><i className="ms-1 bi bi-person-arms-up"></i> from <a href="https://www.soyhenry.com/" target="_blank" className="link-danger">Henry</a> University.

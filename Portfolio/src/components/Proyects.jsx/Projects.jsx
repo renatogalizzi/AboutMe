@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="card mx-3 bg-body-tertiary" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
-            src="../../../src/assets/rick.png"
+            src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749468/up1jec3rfcff43f9juvb.png"
             className="card-img-top"
             alt="..."
           />
@@ -33,7 +33,7 @@ const Projects = () => {
         <div className="card" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
-            src="../../../src/assets/pokemon.png"
+            src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749430/ngddwde9amhdyyee19g4.png"
             class="card-img-top"
             alt="..."
           />
