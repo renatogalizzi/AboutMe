@@ -1,3 +1,12 @@
 img:hover{
-    transform: scale(103%);
+    transform: scale(108%);
+}
+
+#icons{
+    width: 800px !important;
+    
+}
+
+#imgBackground{
+ background-color: rgba(238, 233, 233, 0.692) !important;
 }

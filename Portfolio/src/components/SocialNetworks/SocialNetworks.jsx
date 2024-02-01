@@ -7,7 +7,7 @@ const SocialNetworks = () => {
         <img
           src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706742429/github.png"
           alt="GitHub"
-          className="mb-3"
+          className="mb-3 bg-white rounded-3 opacity-75"
           width="40px"
         />
       </a>
