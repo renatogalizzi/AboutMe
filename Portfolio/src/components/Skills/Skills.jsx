@@ -7,7 +7,7 @@ const Skills = () => {
       <section className="d-flex bg-transparent flex-column align-content-center h-100">
         <h1 className="text-white text-center pt-4 pb-3 p-3 bg-dark rounded-5 opacity-75 font-monospace">My Skills</h1>
         <div className="pt-4 w-100">
-          <div id={styles.icons} className="d-flex flex-sm-column flex-md-row w-100 justify-content-around">
+          <div id={styles.icons} className="d-flex flex-sm-column flex-md-row w-100 justify-content-around mb-4">
             <img 
             id={styles.imgBackground} 
             src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749451/yse4pvbcuh5uembzq29b.svg" 
