@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="d-flex justify-content-center h-75 gap-2 flex-wrap min-vh-100">
       <div id={styles.cardProject} className="d-flex justify-content-center my-auto flex-wrap gap-4 mt-5">
-        <div className="card mx-3 bg-body-tertiary" style={{ width: "20rem", height:"32rem" }}>
+        <div className="card mx-3 bg-body-tertiary border-3 border-tertiary" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
             src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749468/up1jec3rfcff43f9juvb.png"
@@ -30,7 +30,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="card" style={{ width: "20rem", height:"32rem" }}>
+        <div className="card border-3 border-tertiary bg-body-tertiary" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
             src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749430/ngddwde9amhdyyee19g4.png"
@@ -53,7 +53,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="card mx-3" style={{ width: "20rem", height:"32rem" }}>
+        <div className="card mx-3 border-3 border-tertiary bg-body-tertiary" style={{ width: "20rem", height:"32rem" }}>
         <div className={styles.img}>
           <img
             src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706750052/amoysk4mlueufiabisc2.png"
@@ -61,7 +61,7 @@ const Projects = () => {
             alt="..."
           />
           </div>
-          <div className="card-body bg-body-tertiary overflow-hidden">
+          <div className="card-body bg-body-tertiary overflow-hidden border-top border-1 border-secondary d-flex flex-column">
             <h5 className="card-title">SportVibe</h5>
             <p className="card-text text-secondary">
               SportVibe is an ecommerce. This is the final proyect to graduate

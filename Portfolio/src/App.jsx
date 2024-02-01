@@ -6,6 +6,7 @@ import { Route , Routes } from "react-router-dom";
 import Projects from "./components/Proyects.jsx/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<SocialNetworks />} />
+          <Route path="/contact" element={<Contact />} />
       </Routes>
       <SocialNetworks />
       </div>
