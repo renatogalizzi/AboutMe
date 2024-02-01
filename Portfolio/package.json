@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "serve dist -s",
-    "dev": "vite",
+    "dev": "vite build",
     "build": "serve dist -s",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
