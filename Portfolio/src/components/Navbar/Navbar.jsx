@@ -28,19 +28,19 @@ const Navbar = () => {
 
         {/* MENU CELULAR */}
         {aux && 
-        <div id={styles.menuResponsive} className="d-flex justify-content-center mt-3 d-block">
-        <ul className="d-flex gap-2 list-unstyled font-monospace">
+        <div id={styles.menuResponsive} className="d-flex justify-content-center mt-3">
+        <ul className="d-flex flex-column gap-2 list-unstyled font-monospace mt-3">
             <Link to="/">
-            <li><a href="#AboutMe" className="text-white link-warning fs-5 link-warning link-opacity-75">AboutMe</a></li>
+            <li><a href="#AboutMe" className="text-white link-warning fs-5 link-warning link-opacity-75" onClick={()=>setAux(!aux)}>AboutMe</a></li>
             </Link>
             <Link to="/skills">
-            <li><a href="#Skills" className="text-white fs-5 link-warning link-opacity-75">Skills</a></li>
+            <li><a href="#Skills" className="text-white fs-5 link-warning link-opacity-75" onClick={()=>setAux(!aux)}>Skills</a></li>
             </Link>
             <Link to="/projects">
-            <li><a href="#Proyects" className="text-white fs-5 link-warning link-opacity-75">Projects</a></li>
+            <li><a href="#Proyects" className="text-white fs-5 link-warning link-opacity-75" onClick={()=>setAux(!aux)}>Projects</a></li>
             </Link>
             <Link to="/contact">
-            <li><a href="#Contact" className="text-white fs-5 link-warning link-opacity-75">Contact</a></li>
+            <li><a href="#Contact" className="text-white fs-5 link-warning link-opacity-75" onClick={()=>setAux(!aux)}>Contact</a></li>
             </Link>
         </ul>
     </div>

@@ -5,12 +5,29 @@
 
 
 #menuResponsive{
-    position:absolute !important;
+    /* position:absolute !important;
     top:45px;
-    right: 15px !important;
+    right: 15px !important; */
+    text-align: start;
+    background-color: rgba(8, 29, 39, 0.829);
+    width: 100px !important;
+    height: 150px !important;
+    position: fixed !important;
+    top: 37px;
+    right: 0;
+    transform: translate3d(0px, 1%, 0px);
+    transition: transform 1s ease(0.05, 1.04, 0.72, 0.98) 0s;
+    
+    
     
 }
 
+#menuResponsive.is_active{
+    transform: translate3d(0px, 0px, 0px);
+}
 #menuResponsive ul li a{
+    margin-top: 10px;
     font-size: 12px !important;
+    text-align: center;
+    margin-left: 10px;
 }
