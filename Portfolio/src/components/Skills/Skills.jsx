@@ -3,11 +3,11 @@ import styles from "./Skills.module.css"
 
 const Skills = () => {
   return (
-    <div className="d-flex w-100 justify-content-center mt-5 min-vh-100">
+    <div className="d-flex justify-content-center mt-5 min-vh-100">
       <section className="d-flex bg-transparent flex-column align-content-center h-100">
         <h1 className="text-white text-center pt-4 pb-3 p-3 bg-dark rounded-5 opacity-75 font-monospace">My Skills</h1>
-        <div className="pt-4 w-100">
-          <div id={styles.icons} className="d-flex flex-sm-column flex-md-row w-100 justify-content-around mb-4">
+        <div className="pt-4">
+          <div id={styles.icons} className="d-flex flex-sm-column flex-md-row w-100 bg--transparent justify-content-around align-items-center mb-4 flex-wrap">
             <img 
             id={styles.imgBackground} 
             src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749451/yse4pvbcuh5uembzq29b.svg" 
@@ -44,9 +44,9 @@ const Skills = () => {
               width="130px"
               height="130px"
             />
-          </div>
+          
 
-          <div id={styles.icons} className="d-flex flex-sm-column flex-md-row justify-content-around">
+          {/* <div id={styles.icons} className="d-flex flex-sm-column flex-md-row justify-content-around align-items-center"> */}
             <img
             id={styles.imgBackground}
               src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749689/htg7qv3hdndivkzjtujo.svg"
@@ -83,7 +83,8 @@ const Skills = () => {
               width="130px"
               height="130px"
             />
-          </div>
+            </div>
+          {/* </div> */}
         </div>
       </section>
     </div>

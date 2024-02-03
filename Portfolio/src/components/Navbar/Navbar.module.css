@@ -1,12 +1,12 @@
-/* .li{
-    color:white;
-    height: 30px;
-}
-.li:hover{
-    background-color: rgb(236, 179, 179);
-    border-radius: 10px;
-    
-} */
+
 #navClass{
     background-color: rgba(116, 109, 109, 0.425) !important;
+}
+
+
+#menuResponsive{
+    position:absolute !important;
+    top:45px;
+    left:30px;
+    transition: transform 4s cubic-bezier(0.05, 1.04, 0.72, 0.98) 4s;
 }

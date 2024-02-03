@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="d-flex">
       <div
-        className="accordion accordion-flush w-75 mx-auto my-5 bg-secondary border rounded-1"
+        className="accordion accordion-flush w-75 mx-auto my-5 bg-body-secondary border rounded-1"
         id="accordionFlushExample"
       >
         <div className="accordion-item">
@@ -30,7 +30,7 @@ const Home = () => {
             <div className="accordion-body d-flex align-items-center">
               <button
                 type="button"
-                class="btn btn-primary bg-transparent border-0"
+                class="btn btn-primary bg-transparent border-0 align-self-start"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
