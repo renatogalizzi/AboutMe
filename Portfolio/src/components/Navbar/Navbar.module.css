@@ -7,6 +7,10 @@
 #menuResponsive{
     position:absolute !important;
     top:45px;
-    left:30px;
-    transition: transform 4s cubic-bezier(0.05, 1.04, 0.72, 0.98) 4s;
+    right: 15px !important;
+    
+}
+
+#menuResponsive ul li a{
+    font-size: 12px !important;
 }

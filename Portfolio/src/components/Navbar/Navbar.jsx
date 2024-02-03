@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* MENU CELULAR */}
         {aux && 
         <div id={styles.menuResponsive} className="d-flex justify-content-center mt-3 d-block">
-        <ul className="d-flex gap-3 list-unstyled me-4 font-monospace">
+        <ul className="d-flex gap-2 list-unstyled font-monospace">
             <Link to="/">
             <li><a href="#AboutMe" className="text-white link-warning fs-5 link-warning link-opacity-75">AboutMe</a></li>
             </Link>
