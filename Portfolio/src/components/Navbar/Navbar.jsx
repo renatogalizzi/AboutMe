@@ -28,7 +28,7 @@ const Navbar = () => {
 
         {/* MENU CELULAR */}
         {aux && 
-        <div id={styles.menuResponsive} className="d-flex justify-content-center mt-3">
+        <div id={styles.menuResponsive} className="d-flex justify-content-center mt-3 rounded-3">
         <ul className="d-flex flex-column gap-2 list-unstyled font-monospace mt-3">
             <Link to="/">
             <li><a href="#AboutMe" className="text-white link-warning fs-5 link-warning link-opacity-75" onClick={()=>setAux(!aux)}>AboutMe</a></li>

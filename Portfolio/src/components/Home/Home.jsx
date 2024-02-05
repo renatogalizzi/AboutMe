@@ -24,13 +24,13 @@ const Home = () => {
           </h2>
           <div
             id="flush-collapseOne"
-            className="accordion-collapse collapse"
+            className="accordion-collapse collapse d-flex flex-column flex-sm-row align-items-center"
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body d-flex align-items-center">
               <button
                 type="button"
-                class="btn btn-primary bg-transparent border-0 align-self-start"
+                className="btn btn-primary bg-transparent border-0 align-content-sm-center mx-auto"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -40,6 +40,7 @@ const Home = () => {
                   className="rounded-pill"
                 ></img>
               </button>
+              {/* Modal Imagen */}
               <div
                 class="modal fade"
                 id="exampleModal"
@@ -49,11 +50,11 @@ const Home = () => {
               >
                 <div class="modal-dialog modal-dialog-centered w-100">
                   <div class="modal-content">
-                    <div class="modal-body text-center">
+                    <div class="modal-body text-center bg-body-secondary">
                     <img
                   src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749372/hycgxqivkep8ye21vghr.png"
-                  width="400px"
-                  height="400px"
+                  width="300px"
+                  height="300px"
                   className="rounded"
                 ></img>
                     </div>
@@ -68,8 +69,11 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+                {/* Modal Imagen */}
               </div>
-              <p className="ms-3 font-monospace fs-5">
+            </div>
+            <div className="w-100 d-flex">
+              <p className="ms-3 font-monospace fs-5 w-100">
                 I am Renato Galizzi, I am 35 years old. I recently graduated as
                 a{" "}
                 <code className="text-success fw-bold">
@@ -90,7 +94,7 @@ const Home = () => {
                 dedicate myself to full stack development, train myself in what
                 the client needs and develop my potential.
               </p>
-            </div>
+              </div>
           </div>
         </div>
         <div className="accordion-item">
