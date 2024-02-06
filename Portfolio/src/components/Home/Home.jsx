@@ -1,43 +1,24 @@
 import React from "react";
 import styles from "./Home.module.css";
+import Accordion from 'react-bootstrap/Accordion';
 
-
-const Home = () => {
+function Home() {
   return (
     <div className="d-flex">
-      <div
-        className="accordion accordion-flush w-75 mx-auto my-5 bg-body-secondary border rounded-1"
-        id="accordionFlushExample"
-      >
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed bg-body-secondary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
-            >
-              <i className="bi bi-file-earmark-person me-2"></i>About Me
-            </button>
-          </h2>
-          <div
-            id="flush-collapseOne"
-            className="accordion-collapse collapse d-flex flex-column flex-sm-row align-items-center"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div className="accordion-body d-flex align-items-center">
-              <button
+    <Accordion defaultActiveKey="0" flush className="w-75 mx-auto my-5 bg-body-secondary border rounded-1">
+      <Accordion.Item eventKey="0" className="bg-body-secondary">
+        <Accordion.Header className=""><i className="bi bi-file-earmark-person me-2"></i>About Me</Accordion.Header>
+        <Accordion.Body className="d-flex flex-column flex-sm-row align-items-center align-items-sm-start">
+        <button
                 type="button"
-                className="btn btn-primary bg-transparent border-0 align-content-sm-center mx-auto"
+                className="btn btn-primary bg-body-secondary border-0 align-content-sm-center mx-auto"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
                 <img
                   src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749372/hycgxqivkep8ye21vghr.png"
                   width="100px"
-                  className="rounded-pill"
+                  className="rounded-pill mb-3"
                 ></img>
               </button>
               {/* Modal Imagen */}
@@ -48,9 +29,9 @@ const Home = () => {
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
               >
-                <div class="modal-dialog modal-dialog-centered w-100">
-                  <div class="modal-content">
-                    <div class="modal-body text-center bg-body-secondary">
+                <div className="modal-dialog modal-dialog-centered w-100">
+                  <div clasNclassNames="modal-content">
+                    <div className="modal-body text-center bg-body-secondary">
                     <img
                   src="https://res.cloudinary.com/drrswxx5y/image/upload/v1706749372/hycgxqivkep8ye21vghr.png"
                   width="300px"
@@ -69,10 +50,8 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* Modal Imagen */}
               </div>
-            </div>
-            <div className="w-100 d-flex">
+              <div className="w-100 d-flex">
               <p className="ms-3 font-monospace fs-5 w-100">
                 I am Renato Galizzi, I am 35 years old. I recently graduated as
                 a{" "}
@@ -95,28 +74,12 @@ const Home = () => {
                 the client needs and develop my potential.
               </p>
               </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed bg-body-secondary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              <i className="bi bi-book me-2"></i> Education
-            </button>
-          </h2>
-          <div
-            id="flush-collapseTwo"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div className="accordion-body">
-              <ul className="list-group list-group-flush">
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1" className="bg-body-secondary">
+        <Accordion.Header><i className="bi bi-book me-2"></i> Education</Accordion.Header>
+        <Accordion.Body>
+        <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
@@ -207,29 +170,13 @@ const Home = () => {
                   </p>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed bg-body-secondary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
-              aria-expanded="false"
-              aria-controls="flush-collapseThree"
-            >
-              <i className="bi bi-person-workspace me-2"></i>Experience
-            </button>
-          </h2>
-          <div
-            id="flush-collapseThree"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div className="accordion-body">
-              <ul className="list-group list-group-flush">
+
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2" className="bg-body-secondary">
+        <Accordion.Header><i className="bi bi-person-workspace me-2"></i>Experience</Accordion.Header>
+        <Accordion.Body>
+        <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
@@ -298,12 +245,13 @@ const Home = () => {
                   </p>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
     </div>
   );
-};
+}
 
 export default Home;
+
+
