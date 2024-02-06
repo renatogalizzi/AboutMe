@@ -80,7 +80,7 @@ function Home() {
         <Accordion.Header><i className="bi bi-book me-2"></i> Education</Accordion.Header>
         <Accordion.Body>
         <ul className="list-group list-group-flush">
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2001-2001
@@ -95,7 +95,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2002-2002
@@ -110,7 +110,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2004-2004
@@ -122,7 +122,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2007-2012
@@ -135,7 +135,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2016-2016
@@ -147,7 +147,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2023-2024
@@ -159,7 +159,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       <i className="bi bi-infinity fs-6 me-1 px-1"></i>-
@@ -177,7 +177,7 @@ function Home() {
         <Accordion.Header><i className="bi bi-person-workspace me-2"></i>Experience</Accordion.Header>
         <Accordion.Body>
         <ul className="list-group list-group-flush">
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2005-2007
@@ -190,7 +190,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2010-2010
@@ -203,7 +203,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2010-2012
@@ -217,7 +217,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2014-2016
@@ -231,7 +231,7 @@ function Home() {
                     </label>
                   </p>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item p-4">
                   <p className="m-0 fs-5">
                     <label id={styles.date} className="fst-italic">
                       2020-Today
