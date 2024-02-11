@@ -5,13 +5,13 @@ import Accordion from 'react-bootstrap/Accordion';
 function Home() {
   return (
     <div className="d-flex">
-    <Accordion defaultActiveKey="0" flush className="w-75 mx-auto my-5 bg-body-secondary border rounded-1">
-      <Accordion.Item eventKey="0" className="bg-body-secondary">
+    <Accordion defaultActiveKey="0" flush className="w-75 mx-auto my-5 border rounded-1">
+      <Accordion.Item eventKey="0" className="bg-body-tertiary p-2">
         <Accordion.Header className=""><i className="bi bi-file-earmark-person me-2"></i>About Me</Accordion.Header>
         <Accordion.Body className="d-flex flex-column flex-sm-row align-items-center align-items-sm-start">
         <button
                 type="button"
-                className="btn btn-primary bg-body-secondary border-0 align-content-sm-center mx-auto"
+                className="btn btn-primary bg-body-tertiary border-0 align-content-sm-center mx-auto"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -76,7 +76,7 @@ function Home() {
               </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1" className="bg-body-secondary">
+      <Accordion.Item eventKey="1" className="bg-body-tertiary p-2">
         <Accordion.Header><i className="bi bi-book me-2"></i> Education</Accordion.Header>
         <Accordion.Body>
         <ul className="list-group list-group-flush">
@@ -173,7 +173,7 @@ function Home() {
 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2" className="bg-body-secondary">
+      <Accordion.Item eventKey="2" className="bg-body-tertiary p-2">
         <Accordion.Header><i className="bi bi-person-workspace me-2"></i>Experience</Accordion.Header>
         <Accordion.Body>
         <ul className="list-group list-group-flush">
