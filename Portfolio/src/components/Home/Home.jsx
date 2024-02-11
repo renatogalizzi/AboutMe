@@ -7,7 +7,7 @@ function Home() {
     <div className="d-flex">
     <Accordion defaultActiveKey="0" flush className="w-75 mx-auto my-5 border rounded-1">
       <Accordion.Item eventKey="0" className="bg-body-tertiary p-2">
-        <Accordion.Header className=""><i className="bi bi-file-earmark-person me-2"></i>About Me</Accordion.Header>
+        <Accordion.Header><i className="bi bi-file-earmark-person me-2"></i>About Me</Accordion.Header>
         <Accordion.Body className="d-flex flex-column flex-sm-row align-items-center align-items-sm-start">
         <button
                 type="button"
